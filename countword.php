@@ -36,12 +36,6 @@ print_r($count_words);
 
 
 
-
-
-
-
-
-
 <!-- <?php
 
 // $contents = file_get_contents('alice.txt', 'r');
