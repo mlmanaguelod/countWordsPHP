@@ -3,11 +3,38 @@
 $contents = file_get_contents('alice.txt', 'r');
 $words = explode(' ', $contents);
 
+// $ret_array = ($words);
+//     foreach($words as $value) {
+//         foreach($ret_array as $key2 => $value2) {
+//             if(strtolower($key2) == strtolower($value)) {
+//                 $ret_array[$key2]++;
+//                 continue 2;
+//             }
+//         }
+//         $ret_array[$value] = 1;
+//     }
+//     return $ret_array;
+
 $count_words = array_count_values($words);
 echo '<pre>';
 print_r($count_words);
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- <?php
 
