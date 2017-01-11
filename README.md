@@ -1,1 +1,1 @@
-# countWordsPHP
+# string-exercise
